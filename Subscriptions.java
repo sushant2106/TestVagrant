@@ -63,7 +63,8 @@ public class Main
         newspapers.add(new Newspaper("BM", new double[]{1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5}));
         newspapers.add(new Newspaper("HT", new double[]{2.0, 2.0, 2.0, 2.0, 2.0, 4.0, 4.0}));
         
-        double budget=35;
+        System.out.println("Enter the budget...");
+        double budget=sc.nextDouble();
         calculate(newspapers,budget);
 
         
